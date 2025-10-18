@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BOX/INFO — Optimización, Antivirus y Ofimática</title>
+  <meta name="description" content="Descargas de optimizador, antivirus y paquete ofimático con guía de uso.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f3f6fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0a0a0a;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 40px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #00bcd4, #007bff);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8em;
+      margin-bottom: 15px;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #007bff;
+    }
+
+    .service-card {
+      background: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+    }
+
+    .service-card:hover {
+      transform: scale(1.03);
+    }
+
+    .service-card h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .btn-descarga {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    .btn-descarga:hover {
+      background-color: #00bcd4;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #0a0a0a;
+      color: white;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LogoBOXINFO.png" alt="Logo BOX/INFO">
+    <nav>
+      <ul>
+        <li><a href="#optimizador">Optimizador</a></li>
+        <li><a href="#antivirus">Antivirus</a></li>
+        <li><a href="#ofimatica">Ofimática</a></li>
+        <li><a href="#guia">Guía</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>BOX/INFO — Centro de Descargas</h1>
+    <p>Descarga herramientas de optimización, antivirus y ofimática con una guía práctica de uso.</p>
+  </section>
+
+  <!-- Sección Optimizador -->
+  <section id="optimizador" class="section">
+    <h2>🔧 Optimizador</h2>
+    <div class="service-card">
+      <h3>PC Cleaner</h3>
+      <p>Herramienta para limpiar y optimizar el rendimiento de tu PC, eliminando archivos innecesarios y mejorando la velocidad del sistema.</p>
+      <div style="text-align:center; margin-top:15px;">
+        <a href="descargas/descargasPC_Cleaner_setup.exe.exe" class="btn-descarga" download>Descargar PC Cleaner</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Antivirus -->
+  <section id="antivirus" class="section">
+    <h2>🛡️ Antivirus</h2>
+    <div class="service-card">
+      <h3>Security Defender</h3>
+      <p>Protección avanzada contra virus, malware y amenazas en línea. Mantén tu equipo seguro y actualizado.</p>
+      <div style="text-align:center; margin-top:15px;">
+        <a href="descargas/Security_Defender_setup.exe" class="btn-descarga" download>Descargar Antivirus</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Ofimática -->
+  <section id="ofimatica" class="section">
+    <h2>📄 Paquete Ofimático</h2>
+    <div class="service-card">
+      <h3>OfficeBOX</h3>
+      <p>Paquete ofimático completo con procesador de texto, hojas de cálculo y presentaciones, ideal para uso profesional y educativo.</p>
+      <div style="text-align:center; margin-top:15px;">
+        <a href="descargas/OfficeBOX_setup.exe" class="btn-descarga" download>Descargar OfficeBOX</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Manual de uso -->
+  <section id="guia" class="section">
+    <h2>📘 Manual de uso</h2>
+    <p style="text-align:center;">Descarga o visualiza el manual que contiene instrucciones detalladas sobre el uso del optimizador, antivirus y herramientas ofimáticas.</p>
+    <div style="text-align:center; margin-top:20px;">
+      <a href="manuals/Manual_BOX_INFO.pdf" class="btn-descarga" download>Descargar Manual (PDF)</a>
+    </div>
+  </section><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comentarios — BOX/INFO</title>
+  <meta name="description" content="Sección de comentarios de usuarios con formulario simple.">
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, Arial;
+      background-color: #0051f3;
+      color: #03090f;
+      margin: 0;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    /* Formulario */
+    form {
+      background: rgba(0, 0, 0, 0.993);
+      padding: 18px;
+      border-radius: 10px;
+      margin-bottom: 24px;
+      border: 1px solid rgb(0, 0, 0);
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: transparent;
+      color: #e6eef6;
+      margin-bottom: 12px;
+      resize: vertical;
+    }
+    textarea {
+      min-height: 90px;
+    }
+    button {
+      background: #06b6d4;
+      color: #001018;
+      border: none;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+
+    /* Comentarios */
+    .comment {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 12px;
+    }
+    .meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #06b6d4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #001018;
+      font-weight: bold;
+    }
+    .name {
+      font-weight: 600;
+    }
+    .date {
+      color: #94a3b8;
+      font-size: 0.85rem;
+    }
+    .text {
+      line-height: 1.4;
+      color: #d8e9f5;
+    }
+    .empty {
+      color: #94a3b8;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Comentarios de usuarios</h1>
+
+    <!-- Formulario -->
+    <form id="commentForm">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="Tu nombre o alias" required>
+
+      <label for="comment">Comentario</label>
+      <textarea id="comment" name="comment" placeholder="Escribe tu comentario aquí..." required></textarea>
+
+      <button type="submit">Enviar comentario</button>
+    </form>
+
+    <!-- Lista de comentarios -->
+    <div id="commentsContainer">
+      <div class="empty" id="emptyMsg">Aún no hay comentarios.</div>
+    </div>
+  </div>
+
+  <script>
+    const STORAGE_KEY = "site_comments_boxinfo_v2";
+    const form = document.getElementById("commentForm");
+    const nameInput = document.getElementById("name");
+    const commentInput = document.getElementById("comment");
+    const container = document.getElementById("commentsContainer");
+    const emptyMsg = document.getElementById("emptyMsg");
+
+    function loadComments() {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      try {
+        return raw ? JSON.parse(raw) : [];
+      } catch (e) {
+        console.error(e);
+        return [];
+      }
+    }
+
+    function saveComments(comments) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(comments));
+    }
+
+    function escapeHtml(text) {
+      return String(text)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function renderComments() {
+      const comments = loadComments();
+      container.innerHTML = "";
+      if (!comments.length) {
+        emptyMsg.style.display = "block";
+        container.appendChild(emptyMsg);
+        return;
+      }
+      comments
+        .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .forEach((c) => {
+          const div = document.createElement("div");
+          div.className = "comment";
+          div.innerHTML = `
+            <div class="meta">
+              <div class="avatar">${escapeHtml(c.name.cha)
+<body>
+  
+</body>
